@@ -1,0 +1,9 @@
+%span#prompt [/home/dli] $ ls
+%ol
+  - for file in @files
+    - if File.file?(file)
+      %li
+        %a{:title => file, :href => File.join("files", File.basename(file))}= File.basename(file)
+%br
+%p
+  %a{:href => '/'}Home

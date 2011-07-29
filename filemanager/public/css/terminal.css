@@ -1,0 +1,28 @@
+* {
+	margin: 0px;
+	font-family: Inconsolata, Menlo, Consolas, monospace;
+	color: #80FF00 ;
+}
+body { background-color: #000; }
+#wrapper {
+	width: 700px;
+	height: 500px;
+	margin: 10px auto;
+	/*border: 1px dotted #80FF00;*/
+}
+h1 {
+	padding: 5px;
+	text-align: center;
+}
+a { text-decoration: none;}
+ol {
+	width: 500px;
+	margin-top:20px;
+	padding-left: 10px;
+	list-style-type: none;
+}
+ol li {
+	line-height: 2;
+	border-bottom: 1px dotted #80FF00;
+}
+#main { padding: 10px; }
